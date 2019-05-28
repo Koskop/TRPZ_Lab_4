@@ -4,19 +4,105 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <title>Hello, world!</title>
+    <title>TypeScript shop</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 bg-info p-3">
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" class="form-control" id="var_number" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9">
+                    <button type="button" class="btn btn-warning btn-block mt-1" onclick="btnCClick()">C</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-secondary btn-block mt-1" onclick="btnDivClick()">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn7Click()">7</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn8Click()">8</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn9Click()">9</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-secondary btn-block mt-1" onclick="btnMultiplClick()">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn4Click()">4</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn5Click()">5</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn6Click()">6</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-secondary btn-block mt-1" onclick="btnMinusClick()">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn1Click()">1</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn2Click()">2</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn3Click()">3</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-secondary btn-block mt-1" onclick="btnPlusClick()">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btn0Click()">0</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-block mt-1" onclick="btnDotClick()">.</button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-warning btn-block mt-1" onclick="btnCalcClick()">=</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Warning! You must enter at most one action at a time</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+<script src="ts/script.js"></script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
