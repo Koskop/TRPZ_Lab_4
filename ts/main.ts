@@ -137,6 +137,7 @@ function btnCClick() {
     firstNumberString = "";
     secondNumberString = "";
     signId = -1;
+    canClear = false;
 }
 
 function btnMinusClick() {
